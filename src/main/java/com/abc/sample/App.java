@@ -25,5 +25,10 @@ public class App{
 		s.sortarr(arr);
 		App app=new App();
 		app.printarr(arr);
+		System.out.println("Enter element to search:");
+		int target=sc,nextInt90;
+		search se =new search();
+		int pos=se.searcharr(arr,target);
+		System.out.print("Position is"+pos);
 	}
 }
